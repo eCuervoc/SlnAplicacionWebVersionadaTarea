@@ -12,10 +12,19 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-
+    /// <summary>
+    /// Prueba de versionado para clase - prueba numero uno (1)
+    /// </summary>
+    /// <returns>Retorno de prueba - numero uno (1 )</returns>
     public IActionResult Index()
     {
         return View();
+
+        /*
+          Prueba de versionado para clase - prueba numero dos (2)
+          para ver si se ve en github
+         
+         */
     }
 
     public IActionResult Privacy()
@@ -23,6 +32,11 @@ public class HomeController : Controller
         return View();
     }
 
+
+    /// <summary>
+    /// Prueba de versionado para clase - prueba numero tres (3)
+    /// </summary>
+    /// <returns>Retorno de prueba - numero tres (3 )</returns>
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
