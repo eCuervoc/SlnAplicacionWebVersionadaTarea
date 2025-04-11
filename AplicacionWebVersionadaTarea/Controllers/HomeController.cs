@@ -15,18 +15,15 @@ public class HomeController : Controller
     /// <summary>
     /// Prueba de versionado para clase - prueba numero uno (1)
     /// </summary>
-    /// <returns>Retorno de prueba - numero uno (1 )</returns>
+    /// <returns>Retorno de prueba - numero uno (1)</returns>
     public IActionResult Index()
     {
-        return View();
-
-        /*
-          Prueba de versionado para clase - prueba numero dos (2)
-          para ver si se ve en github
-         
-         */
+        return View();   
     }
-
+    /// <summary>
+    /// Prueba de versionado para clase - prueba numero dos (2)
+    /// </summary>
+    /// <returns>Retorno de prueba - numero dos (2)</returns>
     public IActionResult Privacy()
     {
         return View();
@@ -37,6 +34,8 @@ public class HomeController : Controller
     /// Prueba de versionado para clase - prueba numero tres (3)
     /// </summary>
     /// <returns>Retorno de prueba - numero tres (3 )</returns>
+
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
